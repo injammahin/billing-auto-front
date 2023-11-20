@@ -43,7 +43,7 @@ import React, { useState } from "react";
 
 const registrations = () => {
   const [email, setEmail] = useState("");
-
+  const [data, setData] = useState();
   const [password, setpassword] = useState("");
 
   const handleSubmit = async () => {
@@ -52,7 +52,10 @@ const registrations = () => {
 
       password,
     });
-    console.log(x.data);
+    console.log(x.status);
+    if (x.status == 201) {
+      window.location.href = "/showdata";
+    }
   };
   return (
     <div>

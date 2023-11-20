@@ -55,7 +55,7 @@ const registrations = () => {
     console.log(x.data);
   };
   return (
-    <form>
+    <div>
       <label>
         Email:
         <input
@@ -77,7 +77,7 @@ const registrations = () => {
       <br />
 
       <button onClick={handleSubmit}> signin</button>
-    </form>
+    </div>
   );
 };
 

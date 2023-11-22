@@ -54,7 +54,7 @@ const registrations = () => {
     });
     console.log(x.status);
     if (x.status == 201) {
-      window.location.href = "/showdata";
+      window.location.href = "userpage";
     }
   };
   return (

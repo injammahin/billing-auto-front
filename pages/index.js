@@ -8,12 +8,12 @@ export default function Home() {
     <div>
       <button>
         {" "}
-        <a href="/registrations">registrations</a>
+        <a href="user/registrations">registrations</a>
       </button>
       <br />
       <button>
         {" "}
-        <a href="/login">login</a>
+        <a href="user/login">login</a>
       </button>
     </div>
   );
